@@ -1,0 +1,15 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+    
+    background-color: rgba(1, 10, 22, 0.7)
+}
+
+
+.page
+{
+    padding-top: 10%;
+    position: relative;
+}

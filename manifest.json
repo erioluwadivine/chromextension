@@ -1,0 +1,20 @@
+{
+    "name":"chrome extension",
+    "version":"1.0",
+    "description":"build an extension",
+    "manifest_version":2,
+    "background": {
+        "scripts":["js/new.js"]
+    },
+    "chrome_url_overrides":{
+        "newtab":"newtab.html"
+    },
+    "permissions":["activeTab"],
+    "browser_action":{
+        "default_popup":"popup.html"
+        
+    },
+    "icons": { "16": "logo.jpeg",
+        "48":  "logo.jpeg",
+       "128":  "logo.jpeg" }
+}
